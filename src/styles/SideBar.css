@@ -1,0 +1,90 @@
+.sidebar {
+    width: 250px;
+    background-color: #1e2a38;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .logo-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .nav-menu {
+    flex: 1;
+    padding: 20px 0;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-menu li {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .nav-menu li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .nav-menu li.active {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-left: 4px solid #ff6b6b;
+  }
+  
+  .nav-icon {
+    font-size: 18px;
+    margin-right: 12px;
+    width: 20px;
+    text-align: center;
+  }
+  
+  .nav-text {
+    font-size: 14px;
+  }
+  
+  .sidebar-footer {
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-avatar {
+    font-size: 18px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user-name {
+    font-size: 14px;
+  }
